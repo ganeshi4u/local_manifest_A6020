@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Common sources -->
+    <project name="ganeshi4u/android_device_lenovo_A6020"         path="device/lenovo/k5"    remote="github" revision="multirom" />
+
+<!-- Kernel Source for MM bootloader -->
+    <project name="boulzordev/android_kernel_lenovo_msm8929"            path="kernel/lenovo/msm8929"        remote="github" revision="cm-13.0-caf" />
+
+<!-- Hardware -->  
+    <project name="CyanogenMod/android_device_samsung_qcom-common"     path="device/samsung/qcom-common"  remote="github" revision="cm-13.0" />
+    <project name="CyanogenMod/android_device_qcom_common"             path="device/qcom/common"          remote="github" revision="cm-13.0" />
+    <project name="CyanogenMod/android_hardware_samsung"               path="hardware/samsung"            remote="github" revision="cm-13.0" />
+    <project name="CyanogenMod/android_external_mm-dash"               path="external/mm-dash"            remote="github" revision="cm-13.0" />
+
+<!-- multirom sources -->
+    <project name="nkk71/android_bootable_recovery"                  path="bootable/recovery-twrp"       remote="github" revision="android-6.0-mrom" />
+    <project name="CyanogenMod/android_external_busybox"               path="external/busybox"            remote="github" revision="cm-13.0" />
+    <project name="nkk71/multirom"                                     path="system/extras/multirom"      remote="github" revision="master" />
+    <project name="Tasssadar/libbootimg"                               path="system/extras/libbootimg"    remote="github" revision="master" />
+
+<!-- Other -->
+    <project name="CyanogenMod/android_external_stlport"               path="external/stlport"            revision="cm-13.0" />
+
+</manifest>
